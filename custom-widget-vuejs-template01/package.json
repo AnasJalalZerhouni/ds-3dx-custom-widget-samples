@@ -7,7 +7,7 @@
     "author": "",
     "main": "index.html",
     "scripts": {
-        "build": "webpack --config-name prod --progress",
+        "build": "webpack --progress",
         "devtools": "./node_modules/.bin/vue-devtools",
         "postversion": "git push --follow-tags",
         "lint": "eslint src/**/*.{ts,vue}",
